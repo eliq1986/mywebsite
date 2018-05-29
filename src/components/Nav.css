@@ -1,0 +1,35 @@
+span {
+  font-size: 1.5em;
+  color: #337ab7;
+}
+.narrow {
+
+}
+ul {
+  padding: 0;
+}
+a {
+  font-size: 1.6em;
+  cursor: pointer;
+
+
+}
+.links {
+  display: block;
+  text-align: center;
+}
+
+.wide {
+  display: none;
+}
+
+@media (min-width: 720px ) {
+
+
+.narrow {
+  display: none;
+}
+.wide {
+  display: inline;
+}
+}
