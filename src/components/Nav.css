@@ -3,13 +3,16 @@ span {
   color: #337ab7;
 }
 .narrow {
-
+ display: flex;
+ flex-direction: column;
+ text-align: center;
 }
+
 ul {
   padding: 0;
 }
 a {
-  font-size: 1.6em;
+  font-size: 1.4em;
   cursor: pointer;
 
 

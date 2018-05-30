@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,500,700');
 
-div.App, container-fluid, text-center {
+main.App, container-fluid, text-center {
  padding: 0;
 
 }
 
-img {
- width: 200px;
- border-radius: 50%;
+body {
+  font-family:  'IBM Plex Serif', serif;
 }
 .jumbotron {
-
+  padding: 5em;
+  font-size: 1.5em;
   font-family: 'IBM Plex Serif', serif;
-  background-image: url("./images/brick.jpg");
+  background: url("./images/Black.jpeg");
+  background-size: cover;
   color: white;
   font-weight: bolder;
 
+}
+
+
+
+@media(min-width: 700px) {
+  .jumbotron {
+    padding: 3em;
+    font-size: 5em;
+  }
 }

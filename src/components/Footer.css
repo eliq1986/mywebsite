@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
 
-
 }
-
-.svg {
-
-margin: 4em 1em;
-
+#footer a {
+  margin: 0 2em;
+}
+.copyRight {
+  margin-top: 2em;
+  text-align: center;
+  
 }
