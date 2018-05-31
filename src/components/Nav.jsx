@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink, BrowserRouter as Router} from 'react-router-dom';
 import './Nav.css';
 import {Jumbotron, Grid, Row, Col, Image, Button} from 'react-bootstrap';
 
@@ -23,8 +23,10 @@ onShow = () => {
   return (
 
       <nav>
-        <span>Elijah</span>
-        <a onClick={this.onShow}>&#9776;</a>
+        <div className="flex">
+          <span>EQ</span>
+          <a onClick={this.onShow} className="burger">&#9776;</a>
+        </div>
         {this.state.show ?
           <ul className="narrow">
 
@@ -43,7 +45,7 @@ onShow = () => {
           <NavLink className="links" to="/Portfolio">Portfolio</NavLink>
         </ul>
       </nav>
-
+    
       )
     }
 

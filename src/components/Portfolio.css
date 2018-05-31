@@ -1,8 +1,11 @@
 img.portPic {
-  border-radius: .8em;
-  margin: 1em auto 1.5em auto;
 
+  margin: 1em auto 1.5em auto;
+  border: 2px solid #5D5C61;
   color: gray;
+  box-shadow: 1px 1px 3px 1px;
+  transition: all .6s ease;
+
 }
 
 .description {
@@ -10,6 +13,7 @@ img.portPic {
   line-height: 1.8em;
   font-size: 1.4em;
 }
+
 
 hr {
   width: 90%;
@@ -20,7 +24,9 @@ ul {
 }
 @media (min-width: 760px) {
 
-
+img.portPic:hover {
+  transform: scale(1.1);
+}
 
 
 }

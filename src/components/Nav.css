@@ -1,11 +1,22 @@
 span {
-  font-size: 1.5em;
-  color: #337ab7;
+  font-size: 2.5em;
+  color: #5D5C61;
 }
 .narrow {
  display: flex;
  flex-direction: column;
  text-align: center;
+
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+
+}
+.burger {
+  font-size: 2.5em;
 }
 
 ul {
@@ -14,6 +25,7 @@ ul {
 a {
   font-size: 1.4em;
   cursor: pointer;
+  color: #5D5C61;
 
 
 }
@@ -28,11 +40,24 @@ a {
 
 @media (min-width: 720px ) {
 
-
+a.burger {
+  display: none;
+}
 .narrow {
   display: none;
 }
 .wide {
-  display: inline;
+  margin-bottom: 0;
+  display: flex;
+}
+.links {
+  padding: 0 1em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
 }
 }
