@@ -1,0 +1,39 @@
+.flickr span {
+ font-size: 1.2em;
+ color: white;
+ line-height: 2em;
+ text-align: justify;
+
+
+}
+.flickr p {
+  font-size: 2em;
+  color: white;
+  text-align: justify;
+}
+.flickr h2, .flickr h3 {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+.flickr h3 {
+
+}
+.flickrEx {
+  margin-bottom: 3em;
+  margin: 0 auto 5em auto;
+}
+
+.flickr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.flickrFlex {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}

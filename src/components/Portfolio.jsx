@@ -6,62 +6,72 @@ import Api from './images/Api.png'
 import './Portfolio.css';
 import Graph from './images/Graphs.png';
 import Corgi from './images/Svg.png';
-import {Grid, Row, Col, Image,Thumbnail} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import {Grid, Row, Col, Image,Thumbnail, Modal} from 'react-bootstrap';
 
 const Portfolio = () => {
   return (
 
-      <div>
+      <div className="overlay">
         <Grid>
           <div className="show-grid">
             <h3 className="portH3">My Recent Work</h3>
             <p className="description">Recent projects within the last 6 months</p>
             <ul >
-              <Row>
-                <Col md={4}>
-                  <li> <a href="https://github.com/eliq1986/React-flickr-API" target="_blank"><Image  height="200" responsive className="portPic" src={Flickr} /></a>
 
-                    <p className="description">Flickr Image Gallery built with <strong>React</strong></p>
-
+              <Col md={12} className="containerPort">
+                <Link  to="/Flickr">
+                  <li> <Image   responsive className="portPic" src={Flickr} /><h2>Flickr App</h2><span></span><p>React</p>
                   </li>
-                </Col>
-                <Col md={4}>
-                  <li><a href="https://github.com/eliq1986/TREEHOUSE-10"  target="_blank"><Image responsive height="200" className="portPic"  src={Api} /></a>
+                </Link>
+              </Col>
 
-                    <p className="description"> Api Directory built with <strong>Vanilla Javascript</strong>, <strong>CSS3</strong> and <strong>HTML5</strong></p>
-
+              <Col md={12}>
+                <Link to="/Directory">
+                  <li><Image responsive  className="portPic"  src={Api} /><h2>Startup Directory</h2><span></span><p>API</p>
                   </li>
-                </Col>
-                <Col md={4}>
+                </Link>
+              </Col>
+
+              <Col md={12}>
+                <Link to="/Corgi">
                   <li>
-                    <a href="https://github.com/eliq1986/TREEHOUSE-8" target="_blank"><Image responsive className="portPic"  src={Corgi} /></a>
-                    <p className="description">Mock Website built with <strong>SVG</strong> graphics, <strong>HTML5</strong> and <strong>CSS3</strong></p>
+                    <Image responsive className="portPic"  src={Corgi} /><h2>Corgi Website</h2><span></span><p>SVG Graphics</p>
+
 
                   </li>
-                </Col>
-              </Row>
+                </Link>
+              </Col>
+
             </ul>
 
           </div>
           <div className="show-grid" >
             <ul>
-              <Col md={4}>
-                <li>
-                  <a href="https://github.com/eliq1986/Treehouse-Project-3" target="_blank"><Image responsive className="portPic" src={Form} /></a>
-                  <p className="description">Online Registration Form built with <strong>HTML5</strong> and <strong>CSS3</strong></p>
-                </li>
+              <Col md={12}>
+                <Link to="/Responsive">
+                  <li>
+                    <Image responsive className="portPic" src={Form} /><h2>Responsive Form</h2><span></span><p>Responsiveness</p>
+
+                  </li>
+                </Link>
               </Col>
-              <Col md={4}>
-                <li>
-                  <a href="https://github.com/eliq1986/TREEHOUSE-7" target="_blank"><Image responsive  className="portPic" src={Game} /></a>
-                  <p className="description">Game Show App built with <strong>Vanilla Javascript</strong></p>
-                </li>
+              <Col md={12}>
+                <Link to="/Game">
+                  <li>
+                    <Image responsive  className="portPic" src={Game} /><h2>Game</h2><span></span><p>Javascript</p>
+
+                  </li>
+                </Link>
               </Col>
-              <Col md={4}>
-                <li>
-                  <a href="https://github.com/eliq1986/TREEHOUSE-9" target="_blank"><Image responsive  className="portPic"  src={Graph} /></a>
-                  <p className="description">Interactive dashboard built with <strong>SVG</strong> graphics, <strong>Javascript</strong>, <strong>CSS3</strong> and <strong>HTML5</strong></p>
-                </li>
+
+              <Col md={12}>
+                <Link to="/DashBoard">
+                  <li>
+                    <Image responsive  className="portPic"  src={Graph} /><h2>Web Dashboard</h2><span></span><p>CSS3 HTML5</p>
+
+                  </li>
+                </Link>
               </Col>
             </ul>
           </div>

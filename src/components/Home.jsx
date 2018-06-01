@@ -8,19 +8,23 @@ import Me from './images/me.jpg';
 
 const Home = () => {
   return (
-    <div>
-      <Jumbotron>
-        <Grid>
 
-          <h1>I AM A DEVELOPER</h1>
-          <Link to="/About">
-            <Button bsStyle="primary" bsSize="large">Learn More</Button>
-          </Link>
+      <div>
 
-        </Grid>
-      </Jumbotron>
-    </div>
-  )
+        <Jumbotron>
+          <Grid>
+
+            <h1>DEVELOPER</h1>
+
+            <Link to="/About">
+              <Button bsStyle="primary" bsSize="large">Learn More</Button>
+            </Link>
+
+          </Grid>
+        </Jumbotron>
+      </div>
+
+      )
 }
 
 

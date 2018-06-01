@@ -1,32 +1,77 @@
 img.portPic {
-
+  display: block;
   margin: 1em auto 1.5em auto;
   border: 2px solid #5D5C61;
   color: gray;
-  box-shadow: 1px 1px 3px 1px;
-  transition: all .6s ease;
+  opacity: 0.5;
 
+}
+li h2 {
+
+  position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate( -50%, -50% );
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     margin: 0;
+     width: 100%;
+
+
+}
+li span {
+     width: 15%;
+     border-bottom: 2px solid white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate( -50%, -50% );
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     margin: 0;
+}
+
+li p {
+  font-size: 1.2em;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+h3 {
+  color: white;
 }
 
 .description {
   margin: 1em auto 0 auto;
   line-height: 1.8em;
   font-size: 1.4em;
+  color: white;
 }
 
 
-hr {
-  width: 90%;
 
-}
 ul {
   list-style-type: none;
 }
-@media (min-width: 760px) {
+@media (min-width: 991px) {
 
-img.portPic:hover {
-  transform: scale(1.1);
+img.portPic {
+  max-width: 950px;
 }
 
+li span {
+     width: 5%;
+     top: 50%;
+     left: 50%;
+     transform: translate( -50%, -50% );
+
+}
 
 }

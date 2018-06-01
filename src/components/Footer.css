@@ -5,9 +5,14 @@
 }
 #footer a {
   margin: 0 2em;
+  border: none;
+
 }
 .copyRight {
   margin-top: 2em;
   text-align: center;
-  
+
+}
+svg:hover {
+  fill: white;
 }

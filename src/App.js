@@ -2,43 +2,79 @@ import React, { Component } from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
-import Contact from './components/Contact'
-import Portfolio from './components/Portfolio'
+import Contact from './components/Contact';
+import Responsive from './components/Responsive';
+import Gameapp from './components/Game';
+import Dash from './components/Dashboard';
+import Corgi from './components/Corgi';
+import Portfolio from './components/Portfolio';
+import Flickr from './components/Flickr';
+import Directory from './components/Directory';
 import Footer from './components/Footer';
 import {
   BrowserRouter,
   Route,
   Switch,
+  Redirect
+
 } from 'react-router-dom';
-import {  TransitionGroup,
-  CSSTransition} from 'react-transition-group';
+
+import PageTransition from 'react-router-page-transition';
+
 
 import {Container} from 'react-bootstrap';
 import './App.css';
+
+import ScrollToTop from './components/scroll';
+
+
+
+
+
 
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+
+
+
         <div>
           <Nav />
-          <main className="App container-fluid text-center">
-            <TransitionGroup>
-              <CSSTransition timeout={300}   className="fade">
 
-                <Switch>
+          <main className="App container-fluid text-center">
+
+
+            
+              <Switch location={this.props.location}>
+
+                <ScrollToTop>
                   <Route exact path="/" component={Home} />
-                  <Route path="/About" component={About} />
+                  <Route  path="/About" component={About} />
                   <Route path="/Contact" component={Contact} />
                   <Route path="/Portfolio" component={Portfolio} />
-                </Switch>
-              </CSSTransition>
-              </TransitionGroup>
+                  <Route path="/Flickr" component={Flickr} />
+                  <Route path="/Directory" component={Directory} />
+                  <Route path="/Responsive" component={Responsive} />
+                  <Route path="/Game" component={Gameapp} />
+                  <Route path="/Dashboard" component={Dash} />
+                  <Route path="/Corgi" component={Corgi} />
+                </ScrollToTop>
+
+              </Switch>
+
+
+
+
             </main>
+
+
+
             <Footer />
           </div>
-        </BrowserRouter>
+
+
+
         );
         }
         }
