@@ -24,10 +24,10 @@ const Gameapp = () => {
 
           <Button href="https://github.com/eliq1986/TREEHOUSE-7" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/TREEHOUSE-7/" bsStyle="success">Demo</Button>
+          <Button href="https://eliq1986.github.io/TREEHOUSE-7/"  target="_blank" bsStyle="success">Demo</Button>
         </div>
 
-        
+
 
         <h3>Duration</h3>
         <div className="flickrFlex">

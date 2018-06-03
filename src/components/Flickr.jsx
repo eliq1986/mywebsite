@@ -24,7 +24,7 @@ const Flickr = () => {
 
           <Button href="https://github.com/eliq1986/React-flickr-API" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/React-flickr-API/" bsStyle="success">Demo</Button>
+          <Button href="https://eliq1986.github.io/React-flickr-API/"  target="_blank" bsStyle="success">Demo</Button>
         </div>
         <h3>Duration</h3>
         <div className="flickrFlex">

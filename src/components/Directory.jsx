@@ -23,10 +23,10 @@ const Directory = () => {
 
           <Button href="https://github.com/eliq1986/TREEHOUSE-10" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/Directory/" bsStyle="success">Demo</Button>
+          <Button href="https://eliq1986.github.io/Directory/" target="_blank" bsStyle="success">Demo</Button>
         </div>
 
-        
+
 
         <div>
           <h3>Duration</h3>

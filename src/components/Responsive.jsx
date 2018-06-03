@@ -23,7 +23,7 @@ const Responsive = () => {
 
           <Button href="https://github.com/eliq1986/Treehouse-Project-3" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/Form/" bsStyle="success">Demo</Button>
+          <Button href="https://eliq1986.github.io/Form/" target="_blank" bsStyle="success">Demo</Button>
         </div>
 
 
@@ -41,7 +41,7 @@ const Responsive = () => {
 
             <Button bsSize="small" bsStyle="warning">HTML5</Button>
             <Button bsSize="small" bsStyle="warning">CSS3</Button>
-            
+
 
 
           </ul>

@@ -50,7 +50,7 @@ class App extends Component {
             <Switch location={this.props.location}>
 
               <ScrollToTop>
-                <Route exact path="/" component={Home} />
+                <Route exact path="https://eliq1986.github.io/website" component={Home} />
                 <div className="componentContainer">
                   <Route  path="/About" component={About} />
                   <Route path="/Contact" component={Contact} />

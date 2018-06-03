@@ -24,7 +24,7 @@ const Dash = () => {
 
           <Button href="https://github.com/eliq1986/TREEHOUSE-9" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/TREEHOUSE-9/" bsStyle="success">Demo</Button>
+          <Button href="https://eliq1986.github.io/TREEHOUSE-9/"  target="_blank" bsStyle="success">Demo</Button>
         </div>
 
         <div>

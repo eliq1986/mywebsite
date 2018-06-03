@@ -24,9 +24,9 @@ const Corgi = () => {
 
           <Button href="https://github.com/eliq1986/TREEHOUSE-8" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/TREEHOUSE-8/" bsStyle="success">Demo</Button>
+          <Button href="https://eliq1986.github.io/TREEHOUSE-8/" target="_blank" bsStyle="success">Demo</Button>
         </div>
-        
+
         <h2>Duration</h2>
         <div className="flickrFlex">
           <p>March 23rd 2018 - March 27th 2018</p>
