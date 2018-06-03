@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Button, Grid, Row, Col} from 'react-bootstrap';
+import {Image, Button, Grid, Row, Col, ButtonGroup} from 'react-bootstrap';
 import './Flickr.css';
 import FlickrAPI from './images/Flickr.png';
 
@@ -22,24 +22,31 @@ const Flickr = () => {
 
         <div className="flickrFlex">
 
-          <Button href="https://github.com/eliq1986/React-flickr-API" target="_blank">Code</Button>
+          <Button href="https://github.com/eliq1986/React-flickr-API" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/React-flickr-API/">Demo</Button>
+          <Button href="https://eliq1986.github.io/React-flickr-API/" bsStyle="success">Demo</Button>
         </div>
-
+        <h3>Duration</h3>
         <div className="flickrFlex">
 
-          <span>Duration</span>
-          <span>May 1st 2018 - May 24th 2018</span>
-        </div>
 
+          <p>May 1st 2018 - May 24th 2018</p>
+        </div>
+        <h3>Skills:</h3>
         <div className="flickrFlex">
-          <span>Scope</span>
-          <span>React, React-Router, API</span>
+
+          <ul className="buttonFlex">
+
+
+            <Button bsSize="small" bsStyle="warning">HTML5</Button>
+            <Button bsSize="small" bsStyle="warning">API</Button>
+            <Button bsSize="small" bsStyle="warning" >React</Button>
+
+          </ul>
         </div>
 
 
-        </div>
+      </div>
 
 
 

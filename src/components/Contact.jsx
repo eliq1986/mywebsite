@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="contactContainer">
       <h3>Got a Project for me?</h3>
       <p className="contactP">I'd love to hear from you, feel free to get in touch.</p>
-      <Button><a href="mailto:elijahmquesada@gmail.com">Contact Me</a></Button>
+      <Button bsStyle="success"><a href="mailto:elijahmquesada@gmail.com">Contact Me</a></Button>
       <p className="contactP">Follow me on  <a href="https://twitter.com/ElijahQuesada" target="_blank"><Image  src={Twit} width="50px"  /></a></p>
       <p className="contactP">Follow me on <a href="https://www.instagram.com/dangeroussouthamericantreefrog/" target="_blank"><Image  src={Instagram} width="50px"  /></a></p>
 

@@ -21,14 +21,14 @@ const Portfolio = () => {
 
               <Col md={12} className="containerPort">
                 <Link  to="/Flickr">
-                  <li> <Image   responsive className="portPic" src={Flickr} /><h2>Flickr App</h2><span></span><p>React</p>
+                  <li> <Image   responsive className="portPic" src={Flickr} alt="react flickr photo app"/><h2>Flickr App</h2>
                   </li>
                 </Link>
               </Col>
 
               <Col md={12}>
                 <Link to="/Directory">
-                  <li><Image responsive  className="portPic"  src={Api} /><h2>Startup Directory</h2><span></span><p>API</p>
+                  <li><Image responsive  className="portPic"  src={Api} alt="employee directory" /><h2>Startup Directory</h2>
                   </li>
                 </Link>
               </Col>
@@ -36,8 +36,7 @@ const Portfolio = () => {
               <Col md={12}>
                 <Link to="/Corgi">
                   <li>
-                    <Image responsive className="portPic"  src={Corgi} /><h2>Corgi Website</h2><span></span><p>SVG Graphics</p>
-
+                    <Image responsive className="portPic"  src={Corgi} alt="corgi website" /><h2>Corgi Website</h2>
 
                   </li>
                 </Link>
@@ -51,7 +50,7 @@ const Portfolio = () => {
               <Col md={12}>
                 <Link to="/Responsive">
                   <li>
-                    <Image responsive className="portPic" src={Form} /><h2>Responsive Form</h2><span></span><p>Responsiveness</p>
+                    <Image responsive className="portPic" src={Form} alt="empty form"/><h2>Responsive Form</h2>
 
                   </li>
                 </Link>
@@ -59,7 +58,7 @@ const Portfolio = () => {
               <Col md={12}>
                 <Link to="/Game">
                   <li>
-                    <Image responsive  className="portPic" src={Game} /><h2>Game</h2><span></span><p>Javascript</p>
+                    <Image responsive  className="portPic" src={Game} alt="guessing game"/><h2>Game</h2>
 
                   </li>
                 </Link>
@@ -68,7 +67,7 @@ const Portfolio = () => {
               <Col md={12}>
                 <Link to="/DashBoard">
                   <li>
-                    <Image responsive  className="portPic"  src={Graph} /><h2>Web Dashboard</h2><span></span><p>CSS3 HTML5</p>
+                    <Image responsive  className="portPic"  src={Graph} alt="dashboard app with multipe graphs" /><h2>Web Dashboard</h2>
 
                   </li>
                 </Link>

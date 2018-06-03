@@ -6,3 +6,7 @@
 .switch-wrapper > div {
   position: absolute;
 }
+.componentContainer {
+ max-width: 1100px;
+ margin: auto;
+}

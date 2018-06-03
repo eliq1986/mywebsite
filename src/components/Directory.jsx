@@ -21,24 +21,38 @@ const Directory = () => {
 
         <div className="flickrFlex">
 
-          <Button href="https://github.com/eliq1986/TREEHOUSE-10" target="_blank">Code</Button>
+          <Button href="https://github.com/eliq1986/TREEHOUSE-10" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/Directory/">Demo</Button>
+          <Button href="https://eliq1986.github.io/Directory/" bsStyle="success">Demo</Button>
         </div>
 
+        
+
+        <div>
+          <h3>Duration</h3>
+
+
+
+          <p>April 15th 2018 - April 30th 2018</p>
+        </div>
+        <h3>Skills:</h3>
         <div className="flickrFlex">
 
-          <span>Duration</span>
-          <span>April 15th 2018 - April 30th 2018</span>
-        </div>
-
-        <div className="flickrFlex">
-          <span>Scope</span>
-          <span>AJAX, Javascript, HTML5, CSS3</span>
-        </div>
+          <ul className="buttonFlex">
 
 
+            <Button bsSize="small" bsStyle="warning">AJAX</Button>
+            <Button bsSize="small" bsStyle="warning">Javascript</Button>
+            <Button bsSize="small" bsStyle="warning">HTML5</Button>
+            <Button bsSize="small" bsStyle="warning">CSS3</Button>
+
+          </ul>
         </div>
+
+
+
+
+      </div>
 
 
 

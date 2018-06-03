@@ -2,6 +2,15 @@ import React, {Component} from 'react';
 import {NavLink, BrowserRouter as Router} from 'react-router-dom';
 import './Nav.css';
 import {Jumbotron, Grid, Row, Col, Image, Button, Navs} from 'react-bootstrap';
+import Transition from 'react-transition-group/Transition';
+
+const duration = 300;
+
+const defaultStyle={
+  transition: `opactiy ${duration}ms ease-in-out`,
+  opactiy: 0
+}
+
 
 
 
@@ -33,7 +42,7 @@ onShow = () => {
       </div>
       {this.state.visible ?
 
-        <ul className="slideDown">
+        <ul className="slideDown" style={defaultStyle}>
 
           <NavLink className="link" to="/">Home</NavLink>
           <NavLink className="link" to="/About">About</NavLink>

@@ -8,12 +8,12 @@ const Dash = () => {
 
 
       <div className="flickr">
-        <h2>Flickr API App</h2>
+        <h2>DashBoard</h2>
 
         <h3>Overview</h3>
 
         <p>
-          Image gallery using React and Flickr API. Utilizng Create-react-app, built gallery components and set up routing.
+          Interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involved creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.
         </p>
 
         <h3>Details</h3>
@@ -22,20 +22,29 @@ const Dash = () => {
 
         <div className="flickrFlex">
 
-          <Button href="https://github.com/eliq1986/TREEHOUSE-9" target="_blank">Code</Button>
+          <Button href="https://github.com/eliq1986/TREEHOUSE-9" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/TREEHOUSE-9/">Demo</Button>
+          <Button href="https://eliq1986.github.io/TREEHOUSE-9/" bsStyle="success">Demo</Button>
         </div>
 
-        <div className="flickrFlex">
+        <div>
+          <h3>Duration</h3>
 
-          <span>Duration</span>
-          <span>May 1st 2018 - May 24th 2018</span>
+
+
+          <p>March 30th  - April 7th 2018</p>
         </div>
-
+        <h3>Skills:</h3>
         <div className="flickrFlex">
-          <span>Scope</span>
-          <span>React, React-Router, API</span>
+
+          <ul className="buttonFlex">
+
+
+            <Button bsSize="small" bsStyle="warning">HTML5</Button>
+            <Button bsSize="small" bsStyle="warning">API</Button>
+            <Button bsSize="small" bsStyle="warning" >React</Button>
+
+          </ul>
         </div>
 
 

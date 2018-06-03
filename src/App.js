@@ -19,7 +19,7 @@ import {
 
 } from 'react-router-dom';
 
-import PageTransition from 'react-router-page-transition';
+
 
 
 import {Container} from 'react-bootstrap';
@@ -40,16 +40,18 @@ class App extends Component {
 
 
         <div>
-          <Nav />
-
+          <header>
+            <Nav />
+          </header>
           <main className="App container-fluid text-center">
 
 
-            
-              <Switch location={this.props.location}>
 
-                <ScrollToTop>
-                  <Route exact path="/" component={Home} />
+            <Switch location={this.props.location}>
+
+              <ScrollToTop>
+                <Route exact path="/" component={Home} />
+                <div className="componentContainer">
                   <Route  path="/About" component={About} />
                   <Route path="/Contact" component={Contact} />
                   <Route path="/Portfolio" component={Portfolio} />
@@ -59,6 +61,7 @@ class App extends Component {
                   <Route path="/Game" component={Gameapp} />
                   <Route path="/Dashboard" component={Dash} />
                   <Route path="/Corgi" component={Corgi} />
+                </div>
                 </ScrollToTop>
 
               </Switch>

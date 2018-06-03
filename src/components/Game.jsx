@@ -8,12 +8,12 @@ const Gameapp = () => {
 
 
       <div className="flickr">
-        <h2>Flickr API App</h2>
+        <h2>Game Show App</h2>
 
         <h3>Overview</h3>
 
         <p>
-          Image gallery using React and Flickr API. Utilizng Create-react-app, built gallery components and set up routing.
+          A word guessing game. Using Javascript to come up with a random phrase that players will try to guess by entering different letters into the program.
         </p>
 
         <h3>Details</h3>
@@ -22,21 +22,33 @@ const Gameapp = () => {
 
         <div className="flickrFlex">
 
-          <Button href="https://github.com/eliq1986/TREEHOUSE-7" target="_blank">Code</Button>
+          <Button href="https://github.com/eliq1986/TREEHOUSE-7" target="_blank" bsStyle="primary">Code</Button>
 
-          <Button href="https://eliq1986.github.io/TREEHOUSE-7/">Demo</Button>
+          <Button href="https://eliq1986.github.io/TREEHOUSE-7/" bsStyle="success">Demo</Button>
         </div>
 
+        
+
+        <h3>Duration</h3>
         <div className="flickrFlex">
 
-          <span>Duration</span>
-          <span>May 1st 2018 - May 24th 2018</span>
+
+          <p>March 16th 2018 - March 20th 2018</p>
+        </div>
+        <h3>Skills:</h3>
+        <div className="flickrFlex">
+
+          <ul className="buttonFlex">
+
+
+            <Button bsSize="small" bsStyle="warning">Javascript</Button>
+            <Button bsSize="small" bsStyle="warning">DOM Scripting</Button>
+
+
+          </ul>
         </div>
 
-        <div className="flickrFlex">
-          <span>Scope</span>
-          <span>React, React-Router, API</span>
-        </div>
+
 
 
         </div>
