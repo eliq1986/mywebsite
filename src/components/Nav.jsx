@@ -44,7 +44,7 @@ onShow = () => {
 
         <ul className="slideDown" style={defaultStyle}>
 
-          <NavLink className="link" to="/">Home</NavLink>
+          <NavLink className="link" to="https://eliq1986.github.io/website">Home</NavLink>
           <NavLink className="link" to="/About">About</NavLink>
           <NavLink className="link" to="/Contact">Contact</NavLink>
           <NavLink className="link" to="/Portfolio">Portfolio</NavLink>
@@ -52,9 +52,9 @@ onShow = () => {
       : null
       }
 
-    <ul className="wide">
+      <ul className="wide">
 
-        <NavLink className="links" to="/">Home</NavLink>
+        <NavLink className="links" to="https://eliq1986.github.io/website">Home</NavLink>
         <NavLink className="links" to="/About">About</NavLink>
         <NavLink className="links" to="/Contact">Contact</NavLink>
         <NavLink className="links" to="/Portfolio">Portfolio</NavLink>
